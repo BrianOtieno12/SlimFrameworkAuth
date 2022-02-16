@@ -1,6 +1,7 @@
 <?php
 
 use Slim\App;
+use App\Http\Controllers\WelcomeController;
 use Psr\Http\Message\ResponseInterface as Response;
 use Psr\Http\Message\ServerRequestInterface as Request;
 
@@ -14,12 +15,8 @@ return function(App $app){
 
     });
 
-    $app->get('/', function(Request $request, Response $response, $parameters){
+    $app->get('/', [WelcomeController::class, 'index']);
 
-        $response->getBody()->write('Hello World');
-    
-        return $response;
-    
-    });
+    $app->get('/{name}', [WelcomeController::class, 'show']);
     
 };

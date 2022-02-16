@@ -155,8 +155,8 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -211,17 +211,17 @@
         },
         {
             "name": "illuminate/collections",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/collections.git",
-                "reference": "3933ab6b032167c0f7a598388e211c0810acf5d3"
+                "reference": "5cf7ed1c0a1b8049576b29f5cab5c822149aaa91"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/collections/zipball/3933ab6b032167c0f7a598388e211c0810acf5d3",
-                "reference": "3933ab6b032167c0f7a598388e211c0810acf5d3",
+                "url": "https://api.github.com/repos/illuminate/collections/zipball/5cf7ed1c0a1b8049576b29f5cab5c822149aaa91",
+                "reference": "5cf7ed1c0a1b8049576b29f5cab5c822149aaa91",
                 "shasum": ""
             },
             "require": {
@@ -232,7 +232,7 @@
             "suggest": {
                 "symfony/var-dumper": "Required to use the dump method (^5.4)."
             },
-            "time": "2022-01-24T16:41:15+00:00",
+            "time": "2022-02-15T14:40:58+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -268,17 +268,17 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
-                "reference": "e18f8ce24a551e086621b00c7b75d6914d2011b4"
+                "reference": "14062628d05f75047c5a1360b9350028427d568e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/container/zipball/e18f8ce24a551e086621b00c7b75d6914d2011b4",
-                "reference": "e18f8ce24a551e086621b00c7b75d6914d2011b4",
+                "url": "https://api.github.com/repos/illuminate/container/zipball/14062628d05f75047c5a1360b9350028427d568e",
+                "reference": "14062628d05f75047c5a1360b9350028427d568e",
                 "shasum": ""
             },
             "require": {
@@ -289,7 +289,7 @@
             "provide": {
                 "psr/container-implementation": "1.0"
             },
-            "time": "2022-01-05T15:38:15+00:00",
+            "time": "2022-02-02T21:03:35+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -322,8 +322,8 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -373,8 +373,8 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -431,8 +431,8 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
@@ -496,8 +496,8 @@
         },
         {
             "name": "illuminate/macroable",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/macroable.git",
@@ -545,8 +545,8 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -596,17 +596,17 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "910c5eb5d506013fdf60f9dc68c5512711857558"
+                "reference": "fe5469faa982e2dd8c2f5978b23cf881e3715d1b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/910c5eb5d506013fdf60f9dc68c5512711857558",
-                "reference": "910c5eb5d506013fdf60f9dc68c5512711857558",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/fe5469faa982e2dd8c2f5978b23cf881e3715d1b",
+                "reference": "fe5469faa982e2dd8c2f5978b23cf881e3715d1b",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                 "symfony/var-dumper": "Required to use the dd function (^5.4).",
                 "vlucas/phpdotenv": "Required to use the Env class and env helper (^5.4.1)."
             },
-            "time": "2022-01-28T16:29:10+00:00",
+            "time": "2022-02-07T21:23:13+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -667,17 +667,17 @@
         },
         {
             "name": "illuminate/view",
-            "version": "v8.82.0",
-            "version_normalized": "8.82.0.0",
+            "version": "v8.83.1",
+            "version_normalized": "8.83.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
-                "reference": "d1556d48872380623a03e99e3053903d7e3a2b33"
+                "reference": "f9f3ab882025d61d72a6383679fcadd08e79fbcf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/view/zipball/d1556d48872380623a03e99e3053903d7e3a2b33",
-                "reference": "d1556d48872380623a03e99e3053903d7e3a2b33",
+                "url": "https://api.github.com/repos/illuminate/view/zipball/f9f3ab882025d61d72a6383679fcadd08e79fbcf",
+                "reference": "f9f3ab882025d61d72a6383679fcadd08e79fbcf",
                 "shasum": ""
             },
             "require": {
@@ -691,7 +691,7 @@
                 "illuminate/support": "^8.0",
                 "php": "^7.3|^8.0"
             },
-            "time": "2022-01-15T17:24:59+00:00",
+            "time": "2022-02-02T21:02:36+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -1188,6 +1188,50 @@
                 "source": "https://github.com/PHP-DI/PhpDocReader/tree/2.2.1"
             },
             "install-path": "../php-di/phpdoc-reader"
+        },
+        {
+            "name": "php-di/slim-bridge",
+            "version": "3.2.0",
+            "version_normalized": "3.2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PHP-DI/Slim-Bridge.git",
+                "reference": "1644a2f31079e92a14cebbf90c7f71ebcbe39ee6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PHP-DI/Slim-Bridge/zipball/1644a2f31079e92a14cebbf90c7f71ebcbe39ee6",
+                "reference": "1644a2f31079e92a14cebbf90c7f71ebcbe39ee6",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1 || ^8.0",
+                "php-di/invoker": "^2.0.0",
+                "php-di/php-di": "^6.0.0",
+                "slim/slim": "^4.2.0"
+            },
+            "require-dev": {
+                "laminas/laminas-diactoros": "^2.1",
+                "phpunit/phpunit": ">= 7.0 < 10"
+            },
+            "time": "2021-11-01T16:14:12+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "DI\\Bridge\\Slim\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "PHP-DI integration in Slim",
+            "support": {
+                "issues": "https://github.com/PHP-DI/Slim-Bridge/issues",
+                "source": "https://github.com/PHP-DI/Slim-Bridge/tree/3.2.0"
+            },
+            "install-path": "../php-di/slim-bridge"
         },
         {
             "name": "psr/container",
