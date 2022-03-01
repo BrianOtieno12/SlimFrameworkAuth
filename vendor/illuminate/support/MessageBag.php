@@ -2,13 +2,14 @@
 
 namespace Illuminate\Support;
 
+use Countable;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use Illuminate\Contracts\Support\MessageBag as MessageBagContract;
 use Illuminate\Contracts\Support\MessageProvider;
 use JsonSerializable;
 
-class MessageBag implements Jsonable, JsonSerializable, MessageBagContract, MessageProvider
+class MessageBag implements Arrayable, Countable, Jsonable, JsonSerializable, MessageBagContract, MessageProvider
 {
     /**
      * All of the registered messages.
@@ -63,19 +64,6 @@ class MessageBag implements Jsonable, JsonSerializable, MessageBagContract, Mess
         }
 
         return $this;
-    }
-
-    /**
-     * Add a message to the message bag if the given conditional is "true".
-     *
-     * @param  bool  $boolean
-     * @param  string  $key
-     * @param  string  $message
-     * @return $this
-     */
-    public function addIf($boolean, $key, $message)
-    {
-        return $boolean ? $this->add($key, $message) : $this;
     }
 
     /**
@@ -368,7 +356,6 @@ class MessageBag implements Jsonable, JsonSerializable, MessageBagContract, Mess
      *
      * @return int
      */
-    #[\ReturnTypeWillChange]
     public function count()
     {
         return count($this->messages, COUNT_RECURSIVE) - count($this->messages);
@@ -389,7 +376,6 @@ class MessageBag implements Jsonable, JsonSerializable, MessageBagContract, Mess
      *
      * @return array
      */
-    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         return $this->toArray();

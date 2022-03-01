@@ -6,3 +6,6 @@
 
 #cached files
 /cache
+
+#vendor
+/vendor

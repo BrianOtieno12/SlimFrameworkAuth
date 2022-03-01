@@ -2,25 +2,22 @@
 
 namespace App\Http\Controllers;
 
-use Psr\Http\Message\ResponseInterface as Response;
-use Psr\Http\Message\ServerRequestInterface as Request;
+use App\Support\View;
 
 class WelcomeController
 {
 
-    public function index(Request $request, Response $response){
+    public function index(View $view){
 
-        $response->getBody()->write('Welcome Controller World');
-    
-        return $response;
+        $name = 'Clean Code Studio I love it';
+
+        return $view('auth.home', compact('name'));
     
     }
 
-    public function show($response, $name){
+    public function show(View $view, $name, $id){
 
-        $response->getBody()->write("My name is {$name}");
-
-        return $response;
+        return $view('user.show', compact('name', 'id'));
 
     }
 
