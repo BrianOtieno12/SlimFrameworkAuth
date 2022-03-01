@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '108b0a5d979c0def52f5454db5a9425928bab483',
+        'reference' => 'c17e681ea89feb04295e09f423f8fc9fe64151f3',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '108b0a5d979c0def52f5454db5a9425928bab483',
+            'reference' => 'c17e681ea89feb04295e09f423f8fc9fe64151f3',
             'dev_requirement' => false,
         ),
         'doctrine/inflector' => array(
@@ -35,6 +35,15 @@
             'install_path' => __DIR__ . '/../fig/http-message-util',
             'aliases' => array(),
             'reference' => '9d94dc0154230ac39e5bf89398b324a86f63f765',
+            'dev_requirement' => false,
+        ),
+        'filp/whoops' => array(
+            'pretty_version' => '2.14.5',
+            'version' => '2.14.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../filp/whoops',
+            'aliases' => array(),
+            'reference' => 'a63e5e8f26ebbebf8ed3c5c691637325512eb0dc',
             'dev_requirement' => false,
         ),
         'illuminate/container' => array(
@@ -184,8 +193,8 @@
         'psr/container-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '^1.0',
-                1 => '1.0',
+                0 => '1.0',
+                1 => '^1.0',
             ),
         ),
         'psr/http-factory' => array(
@@ -288,12 +297,12 @@
             'dev_requirement' => false,
         ),
         'symfony/console' => array(
-            'pretty_version' => 'v5.4.3',
-            'version' => '5.4.3.0',
+            'pretty_version' => 'v5.4.5',
+            'version' => '5.4.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/console',
             'aliases' => array(),
-            'reference' => 'a2a86ec353d825c75856c6fd14fac416a7bdb6b8',
+            'reference' => 'd8111acc99876953f52fe16d4c50eb60940d49ad',
             'dev_requirement' => false,
         ),
         'symfony/deprecation-contracts' => array(
@@ -387,12 +396,12 @@
             'dev_requirement' => false,
         ),
         'symfony/translation' => array(
-            'pretty_version' => 'v5.4.3',
-            'version' => '5.4.3.0',
+            'pretty_version' => 'v5.4.5',
+            'version' => '5.4.5.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/translation',
             'aliases' => array(),
-            'reference' => 'a9dd7403232c61e87e27fb306bbcd1627f245d70',
+            'reference' => '7e4d52d39e5d86f3f04bef46fa29a1091786bc73',
             'dev_requirement' => false,
         ),
         'symfony/translation-contracts' => array(
@@ -417,6 +426,15 @@
             'install_path' => __DIR__ . '/../voku/portable-ascii',
             'aliases' => array(),
             'reference' => '87337c91b9dfacee02452244ee14ab3c43bc485a',
+            'dev_requirement' => false,
+        ),
+        'zeuxisoo/slim-whoops' => array(
+            'pretty_version' => '0.7.3',
+            'version' => '0.7.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../zeuxisoo/slim-whoops',
+            'aliases' => array(),
+            'reference' => 'a6e2d5da78157c86016a2bda824c25a3369ba642',
             'dev_requirement' => false,
         ),
     ),
