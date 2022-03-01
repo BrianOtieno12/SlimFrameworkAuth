@@ -5,5 +5,9 @@
         <p>
             {{ $name }} Git Hub Repo
         </p>
+
+        <p>
+            App Name is: {{ env('NO_VALUE', 'Defaulted to me') }}
+        </p>
     </div>
 @endsection

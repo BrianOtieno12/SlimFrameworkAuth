@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => 'c17e681ea89feb04295e09f423f8fc9fe64151f3',
+        'reference' => '6247059f9ab5b5ce61c9cc8d144f866d85a80d55',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => 'c17e681ea89feb04295e09f423f8fc9fe64151f3',
+            'reference' => '6247059f9ab5b5ce61c9cc8d144f866d85a80d55',
             'dev_requirement' => false,
         ),
         'doctrine/inflector' => array(
@@ -179,6 +179,15 @@
             'install_path' => __DIR__ . '/../php-di/slim-bridge',
             'aliases' => array(),
             'reference' => '1644a2f31079e92a14cebbf90c7f71ebcbe39ee6',
+            'dev_requirement' => false,
+        ),
+        'phpoption/phpoption' => array(
+            'pretty_version' => '1.8.1',
+            'version' => '1.8.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpoption/phpoption',
+            'aliases' => array(),
+            'reference' => 'eab7a0df01fe2344d172bff4cd6dbd3f8b84ad15',
             'dev_requirement' => false,
         ),
         'psr/container' => array(
@@ -418,6 +427,15 @@
             'provided' => array(
                 0 => '2.3',
             ),
+        ),
+        'vlucas/phpdotenv' => array(
+            'pretty_version' => 'v4.2.2',
+            'version' => '4.2.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../vlucas/phpdotenv',
+            'aliases' => array(),
+            'reference' => '77e974614d2ead521f18069dccc571696f52b8dc',
+            'dev_requirement' => false,
         ),
         'voku/portable-ascii' => array(
             'pretty_version' => '1.6.1',

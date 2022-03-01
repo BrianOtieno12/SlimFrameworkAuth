@@ -62,6 +62,7 @@ class ComposerStaticInita31a425e02f36c202194aed9f1c1ce53
             'Psr\\Http\\Server\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
+            'PhpOption\\' => 10,
             'PhpDocReader\\' => 13,
         ),
         'O' => 
@@ -90,6 +91,7 @@ class ComposerStaticInita31a425e02f36c202194aed9f1c1ce53
         ),
         'D' => 
         array (
+            'Dotenv\\' => 7,
             'Doctrine\\Inflector\\' => 19,
             'Doctrine\\Common\\Inflector\\' => 26,
             'DI\\Bridge\\Slim\\' => 15,
@@ -200,6 +202,10 @@ class ComposerStaticInita31a425e02f36c202194aed9f1c1ce53
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
+        'PhpOption\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
+        ),
         'PhpDocReader\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/phpdoc-reader/src/PhpDocReader',
@@ -251,6 +257,10 @@ class ComposerStaticInita31a425e02f36c202194aed9f1c1ce53
         'FastRoute\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/fast-route/src',
+        ),
+        'Dotenv\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
         ),
         'Doctrine\\Inflector\\' => 
         array (
